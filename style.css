@@ -1,21 +1,21 @@
+* {
+  font-family: 'League Spartan';
+}
 .page1 { 
   height: 400px;
   background-image: url("images/bg.jpg.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: sans-serif;
 }
 
 .topicnabout { 
-  height: 100%;
+  height: auto;                      
   background-image: url("images/bg2.jpg.png"); 
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size: cover;           
   background-position: center;
-  font-family: sans-serif;
 }
-
 .navbar {
   padding: 30px;
 }
@@ -27,7 +27,6 @@
 }
 
 .header {
-  font-family: 'League Spartan', sans-serif; 
   color: #ef6c63;
   margin-top: 120px;
   margin-left: 100px;
@@ -43,34 +42,22 @@
 }
 
 .headerabout {
-  font-family: 'League Spartan', sans-serif; 
   color: #ef6c63;
   margin-top: 40px;
-  margin-left: 500px;
+  text-align: center;
   font-size: 30px;
 }
 
 .aboutustxt { 
   color: black; 
   font-size: 15px; 
-  margin-left: 100px; 
-  width: 500px; 
-  float: left; 
-  margin-top: 40px; 
+  margin: 40px auto; 
+  width: 600px; 
+  text-align: center;
+  line-height: 1.6;
 }
 
- .pic3 {
-   float: right; 
-   width: 400px; 
-   margin-right: 100px; 
-   margin-top: 40px; } 
-   
-.pic3 img { 
-  width: 300px; 
-  height: 300px; }
-
 .headertopic {
-  font-family: 'League Spartan', sans-serif; 
   color: #ef6c63;
   margin-top: 40px;
   margin-left: 500px;
@@ -78,30 +65,61 @@
 }
 
 .pic1 img {
-  width: 300px;
+  width: 400px;
   height: 200px;
-  margin-left: 200px;
+  margin-left: 170px;
   margin-top: -20px;
+  border: 5px solid #ef6c63;
 }
 
 .text1 {
   font-size: 15px;
   width: 500px;
-  margin-left: 550px;
+  margin-left: 650px;
   margin-top: -180px;
 }
 
 .text2 {
   font-size: 15px;
   width: 500px;
-  margin-left: 100px;
-  margin-top: 150px;
+  margin-left: 170px;
+  margin-top: 90px;
 }
 
 .pic2 img {
-  width: 300px;
+  width: 400px;
   height: 200px;
   margin-left: 650px;
-  margin-top: -100px;
-  margin-bottom: 50px;
+  margin-top: -120px;
+  margin-bottom: 60px;
+  border: 5px solid #ef6c63;
+}
+
+.schedule {
+  text-align: center;
+  margin: 60px;
+  width: 90%;
+}
+
+.table1 {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.table1 th {
+  border: 1px solid #ef6c63;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  background: #ef6c63;
+  color: white;
+  font-weight: bold;
+}
+
+.table1 td {
+  border: 1px solid #ef6c63;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
 }
